@@ -16,8 +16,8 @@ A personal portfolio website built with Spring Boot and Thymeleaf.
 *   Maven
 
 ## Setup and Installation
-1.  Clone the repository: `git clone https://github.com/your-username/portfolio.git`
-2.  Navigate to the project directory: `cd portfolio`
+1.  Clone the repository: `git clone https://github.com/codewithbalaji/portfolio-java.git`
+2.  Navigate to the project directory: `cd portfolio-java`
 3.  Build the project using Maven: `mvn clean install`
 4.  Run the application: `mvn spring-boot:run`
 5.  Open your web browser and go to `http://localhost:8080`
