@@ -23,11 +23,15 @@ public class HomeController {
     public String showProjectsPage(Model model) {
         model.addAttribute("title","Projects");
         return "master";
-    }
-
-    @GetMapping("/resume")
+    }    @GetMapping("/resume")
     public String showResumePage(Model model) {
         model.addAttribute("title","Resume");
+        return "master";
+    }
+
+    @GetMapping("/thankyou")
+    public String showThankYouPage(Model model) {
+        model.addAttribute("title","Thank You");
         return "master";
     }
 }

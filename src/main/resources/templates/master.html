@@ -32,12 +32,13 @@
 
     <div th:if="${title == 'Resume'}">
         <div th:insert="resume :: resume"></div>
-    </div>
-
-    <div th:if="${title == 'Projects'}">
+    </div>    <div th:if="${title == 'Projects'}">
         <div th:insert="projects :: projects"></div>
     </div>
 
+    <div th:if="${title == 'Thank You'}">
+        <div th:insert="thankyou :: thankyou"></div>
+    </div>
 
 
 </main>
