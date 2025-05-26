@@ -34,10 +34,12 @@
         <div th:insert="resume :: resume"></div>
     </div>    <div th:if="${title == 'Projects'}">
         <div th:insert="projects :: projects"></div>
+    </div>    <div th:if="${title == 'Thank You'}">
+        <div th:insert="thankyou :: thankyou"></div>
     </div>
 
-    <div th:if="${title == 'Thank You'}">
-        <div th:insert="thankyou :: thankyou"></div>
+    <div th:if="${title == '404 - Page Not Found'}">
+        <div th:insert="error404 :: error404"></div>
     </div>
 
 

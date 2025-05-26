@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head></head>
+  <body>
+    <!-- Page Content-->
+    <div class="container px-5 my-5" th:fragment="error404">
+      <div class="text-center mb-5">
+        <h1 class="display-5 fw-bolder mb-0">
+          <span class="text-gradient d-inline">404 - Page Not Found</span>
+        </h1>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-11 col-xl-9 col-xxl-8">
+          <!-- 404 Error Section-->
+          <section>
+            <div class="card shadow border-0 rounded-4 mb-5">
+              <div class="card-body p-5 text-center">
+                <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-4 mx-auto" style="width: 6rem; height: 6rem; display: flex; align-items: center; justify-content: center;">
+                  <i class="bi bi-exclamation-triangle-fill" style="font-size: 2rem;"></i>
+                </div>
+                <h2 class="fw-bolder mb-4">Oops! Page Not Found</h2>
+                <p class="lead text-muted mb-4">
+                  The page you're looking for doesn't exist or has been moved. 
+                  Don't worry, it happens to the best of us!
+                </p>
+                <div class="row gx-5 justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="bg-light rounded-4 p-4 mb-4">
+                      <h5 class="fw-bolder mb-3">What can you do?</h5>
+                      <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><i class="bi bi-check2 text-primary me-2"></i>Check the URL for any typos</li>
+                        <li class="mb-2"><i class="bi bi-check2 text-primary me-2"></i>Go back to the homepage and navigate from there</li>
+                        <li class="mb-0"><i class="bi bi-check2 text-primary me-2"></i>Use the navigation menu to find what you're looking for</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                  <a class="btn btn-primary btn-lg px-5 py-3" href="/">
+                    <i class="bi bi-house-fill me-2"></i>Back to Home
+                  </a>
+                  <a class="btn btn-outline-primary btn-lg px-5 py-3" href="/contact">
+                    <i class="bi bi-envelope me-2"></i>Contact Me
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Popular Pages Section -->
+          <section>
+            <div class="card shadow border-0 rounded-4 mb-5">
+              <div class="card-body p-5">
+                <div class="text-center mb-4">
+                  <h3 class="fw-bolder mb-3">
+                    <span class="text-gradient d-inline">Popular Pages</span>
+                  </h3>
+                  <p class="text-muted mb-4">
+                    Explore these popular sections of my portfolio
+                  </p>
+                </div>
+                <div class="row gx-4">
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                      <div class="feature bg-primary text-white rounded-3 me-3">
+                        <i class="bi bi-folder"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bolder mb-1">
+                          <a href="/projects" class="text-decoration-none">Projects</a>
+                        </h5>
+                        <p class="text-muted mb-0">View my latest work and projects</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                      <div class="feature bg-secondary text-white rounded-3 me-3">
+                        <i class="bi bi-file-person"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bolder mb-1">
+                          <a href="/resume" class="text-decoration-none">Resume</a>
+                        </h5>
+                        <p class="text-muted mb-0">Check out my experience and skills</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                      <div class="feature bg-success text-white rounded-3 me-3">
+                        <i class="bi bi-envelope"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bolder mb-1">
+                          <a href="/contact" class="text-decoration-none">Contact</a>
+                        </h5>
+                        <p class="text-muted mb-0">Get in touch for collaborations</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="d-flex align-items-center">
+                      <div class="feature bg-info text-white rounded-3 me-3">
+                        <i class="bi bi-house"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bolder mb-1">
+                          <a href="/" class="text-decoration-none">Home</a>
+                        </h5>
+                        <p class="text-muted mb-0">Return to the homepage</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Divider -->
+          <div class="pb-5"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
